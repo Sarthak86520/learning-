@@ -1,0 +1,25 @@
+{
+  "name": "efhdhhdewhrgeuedvdvhed",
+  "version": "1.0.0",
+  "description": "project management",
+  "main": "index.js",
+  "type": "module",
+    "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarthak86520/learning-.git"
+  },
+  "keywords": [
+    "backend",
+    "api",
+    "creation"
+  ],
+  "author": "Sarthak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sarthak86520/learning-/issues"
+  },
+  "homepage": "https://github.com/Sarthak86520/learning-#readme"
+}
