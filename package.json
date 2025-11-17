@@ -4,8 +4,9 @@
   "description": "project management",
   "main": "index.js",
   "type": "module",
-    "scripts": {
-    "dev": "node index.js"
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/Sarthak86520/learning-/issues"
   },
-  "homepage": "https://github.com/Sarthak86520/learning-#readme"
+  "homepage": "https://github.com/Sarthak86520/learning-#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "3.6.2"
+  }
 }
