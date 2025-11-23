@@ -1,5 +1,6 @@
 import e from "express";
 import express from "express"
+
 import cors from "cors";   
 
 const app = express();
@@ -17,7 +18,10 @@ app.use(cors({
     allowedHeaders: ['Content-Type', 'Authorization'],  
 }));
 
+// import the routes
+import healthcheckRoutes from './routes/healthcheck.routes.js';
 
+app.use("/api/v1", healthcheckRoutes);
 
 app.get('/', (req, res) =>    { 
     res.send('Hello World!  Welcome to base camp')
