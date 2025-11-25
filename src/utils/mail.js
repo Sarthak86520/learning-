@@ -54,7 +54,7 @@ const emailVerificationMailgenContent = (username, verificationUrl) => {
             },
             outro: "Need help, or have questions? Just reply to this email, we're always happy to help."
         },
-    }:
+    }
 };
 const forgotPasswordMailgenContent = (username, passwordResetUrl) => {
     return{
@@ -71,7 +71,7 @@ const forgotPasswordMailgenContent = (username, passwordResetUrl) => {
             },
             outro: "Need help, or have questions? Just reply to this email, we're always happy to help."
         },
-    }:
+    }
 };
 
 export{

@@ -21,7 +21,9 @@ app.use(cors({
 // import the routes
 import healthcheckRoutes from './routes/healthcheck.routes.js';
 
+import authRouter from './routes/auth.routes.js';
 app.use("/api/v1", healthcheckRoutes);
+app.use("/api/v1/auth", authRouter);
 
 app.get('/', (req, res) =>    { 
     res.send('Hello World!  Welcome to base camp')
