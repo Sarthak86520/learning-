@@ -40,7 +40,7 @@ const {unHashedToken, hashedToken, tokenExpiry} =
 user.emailVerificationToken = hashedToken;
 user.emailVerificationTokenExpiry = tokenExpiry;
 await user.save({validateBeforeSave: false});
-// Send verification email
+// Send verification email LEARNING PURPOSES ONLY - IMPLEMENT ACTUAL EMAIL SERVICE
 
 await sendEmail({
     email: user?.email,
